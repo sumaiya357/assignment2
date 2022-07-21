@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* common styles*/
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* top-section */
+
+
+.top-section {
+    margin-top: 50px;
+
+}
+
+.div1 {
+    background-color: black;
+    height: 646px;
+    width: 1321px;
+    border-radius: 30px;
+    display: flex;
+
+}
+
+
+
+.text {
+    margin-top: 30px;
+    margin-left: 107px;
+}
+
+.h1 {
+    height: 350px;
+    width: 531px;
+
+}
+
+.h1 h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+
+}
+
+.para {
+
+    margin-top: 22px;
+}
+
+.para p {
+    color: white;
+
+    font-size: 16px;
+    font-style: normal;
+}
+
+.text,
+.image {
+    width: 50%;
+
+}
+
+.image img {
+
+    width: 581px;
+    height: 613px;
+    margin: 33px 79px 0 23px;
+
+}
+
+.btn {
+    margin-top: 22px;
+}
+
+.btn button {
+    width: 183px;
+    height: 56px;
+    background-color: #DD0000;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+
+
+.btn button:hover {
+    background-image: linear-gradient(to right, pink, purple);
+}
+
+.btn .icon {
+    margin-left: 10px;
+}
+
+/* -------section2----------- */
+
+.section2 {
+    margin-top: 50px;
+    display: flex;
+
+    margin-bottom: 100px;
+}
+
+
+
+.div2 {
+    background-color: black;
+    height: 312px;
+    width: 312px;
+    border-radius: 10px;
+}
+
+.div2-inf {
+    width: 252px;
+    height: 252px;
+    position: relative;
+    left: 5px;
+    top: 10px;
+
+
+}
+
+
+.match,
+.group,
+.blog {
+
+    width: 250px;
+    height: 54px;
+    background-color: white;
+    margin: 30px;
+
+
+
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.match {
+    background-color: #DD0000;
+    color: white;
+
+}
+
+.match a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* grid part */
+.grids {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+    margin-left: 24px;
+}
+
+.grid {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.flex {
+    width: 200px;
+    padding-left: 30px;
+    padding-top: 50px;
+    display: flex;
+}
+
+.flex span {
+    margin: 20px;
+}
+
+.grid-info h3 {
+    font-size: 16px;
+
+}
+
+.grid-info p {
+    color: grey;
+
+    font-size: 14px;
+    font-style: normal;
+}
+
+
+.grid-info {
+    margin: 60px;
+}
+
+
+
+
+/* -----------footer=--------------- */
+
+.footer {
+    background-color: #161616;
+    width: 1500px;
+    height: 444px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h3 {
+    font-size: 40px;
+    margin-left: 600px;
+}
+
+.footer a {
+
+    color: white;
+    text-decoration: none;
+    padding-left: 50px;
+    font-size: 16px;
+}
+
+hr {
+    width: 1320px;
+}
+
+nav {
+    margin-top: 50px;
+    margin-left: 180px;
+}
+
+
+
+
+
+/* for responsive website */
+
+@media screen and (max-width:576px) {
+
+    main {
+        width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .grids {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .div3 button {
+        visibility: visible;
+    }
+
+}
+
+
+
+
+
+/* .foot {
+    margin-left: 130px;
+    margin-left: 130px;
+    margin-top: 140px;
+    margin-bottom: 140px;
+} */

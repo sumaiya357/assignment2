@@ -264,6 +264,25 @@ nav {
     margin-left: 180px;
 }
 
+.f-icons {
+
+    margin-top: 100px;
+
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.f-icons a {
+    font-size: 50px;
+}
+
+.icon {
+    padding: 70px;
+}
+
 
 
 
